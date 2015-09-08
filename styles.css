@@ -1,0 +1,20 @@
+img.images {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 109px;
+}
+
+#searchbox {
+	position: absolute;
+	width:543px;
+	height: 38px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+.search {
+	text-align: center;
+}
