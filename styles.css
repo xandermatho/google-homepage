@@ -8,13 +8,63 @@ img.images {
 
 #searchbox {
 	position: absolute;
-	width:543px;
-	height: 38px;
+	width:586px;
+	height: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px;
+
+	left: 32.3%;
+
+background: url(Resources/google_mic.png) no-repeat scroll 548px;
+padding-left:30px;
+background-size: 24px 24px;
+border-style: solid;
+border-width: 1px;
+border-color: #D9D9D9;
 }
 
 .search {
 	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+#googsearch, #lucky {
+
+	margin-top: 65px;
+	background-color: #f8f8f8;
+
+    color: #887575;
+	border: 0px solid #c6c6c6;
+        height: 36px;
+    line-height: 27px;
+
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 70px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+#footer {
+    bottom: 0;
+    height: 40px;
+    position: absolute;
+
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 100%;
+}
+
+html, body {
+margin:0;
+padding:0;
 }
